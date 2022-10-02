@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+
+
+* { 
+    color:#f2f2f2 ;
+}
+html { 
+    background-color: #212121;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#change{
+    background-color:#2b3d37 ;
+}
+#change:hover{
+background-color: white;
+}
+
+
+
+h1 {
+    width: 400px;
+    border: solid 15px #4c6a63;
+    border-left: solid 15px #212121;
+    border-right: solid 15px #212121;
+    text-align: center;
+    padding: 4px 0;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+fieldset { 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a4beb8;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border: solid 2px #4b6b61;
+}
+fieldset p { 
+    color:#1a1a1a;
+    text-align: center;
+}
+.InputActividades{
+    text-align: left;
+}
+
+
+
+label {
+    color: #1a1a1a;
+    align-items: center;
+}
+.input{
+    color:#1a1a1a ;
+    width: 330px;
+    height: 20px;
+}
+input[type="radio"]{
+transform:scale(0.8);
+}
+::placeholder{
+text-align: right;
+}
+input:focus { 
+    background-color: #4d6d63;
+    color: #f2f2f2;
+}
+.input::placeholder{
+    color: #4d6d63;
+}
+
+
+select { 
+    width: 340px;
+    height: 30px;
+    color: #1a1a1a;
+}
+option{
+    color: #1a1a1a;
+}
+textarea{
+    width: 330px;
+    height: 100px;
+    resize: vertical;
+}
+textarea:focus{
+    background-color: #4d6d63;
+    color: #f2f2f2
+}
+
+
+legend {
+    background-color: #2b3d37;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;;
+    border-radius: 5px;
+}
+
+
+
+.TerminosyCondiciones{
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+button{
+    background-color: #2b3d37;
+    color: #8dc0b6;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 120px;
+    border: solid 0.5px #4b6b61;
+    margin-top: 20px;
+}
+.button_1{
+    margin-left: 80px;
+    margin-right: 40px;
+}
+button:hover{
+    background-color: #a4beb8;
+    color: #1a1a1a;   
+}

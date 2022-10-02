@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiliación</title>
+    <link id="pagestyle" rel="stylesheet" href="Css/estilos-futurista.css">
+</head>
+<body>
+
+
+
+    <header>
+        <button id="change">Aleatorio</button>
+    </header>
+
+
+
+    <h1>Vení al Gym!💪🏽</h1>
+
+
+<form>
+    
+        <fieldset>
+            <legend>🙋🏼‍♂️Datos personales👀</legend>
+            
+            
+            <p>
+                <label for="Nombre">Nombre:*</label>
+                <input class="input" type="text" name="Nombre" id="Nombre" required>
+            </p>
+            
+            <p>
+                <label for="Apellido">Apellido:*</label>
+                <input class="input" type="text" name="Apellido" id="Apellido" required>
+            </p>
+            
+            <p>
+                <label for="Documento">Documento:*</label>
+                <input class="input" type="text" name="Documento" id="Documento" required>
+            </p>
+            
+            
+            <p>Nacionalidad:*
+                <select name="Nacionalidad" id="Nacionalidad" required>
+                    <option value="" disabled selected>-Seleccionar-</option>
+                    <option value="Argenina">Argentina</option>
+                    <option value="Brasileña">Brasileña</option>
+                    <option value="Uruguaya">Uruguaya</option>
+                    <option value="Otra">Otra</option>
+                </select>
+            </p>
+            
+            
+            <p>Contanos un poco de vos...
+                <textarea name="contanos" id="contanos" cols="20" rows="2">
+                </textarea>
+            </p>
+            
+            
+            <p>Sexo:*
+                <p>
+                    <input type="radio" name="hm" value="h"> Hombre
+                    <input type="radio" name="hm" value="m"> Mujer
+                    <input type="radio" name="hm" value="o"> Otro
+                </p>
+            </p>
+            
+        </fieldset>
+    
+    
+    
+        <fieldset>
+            <legend>📱Datos de Contacto📧</legend>
+            
+            
+            <p>
+                <label for="Teléfono"">Teléfono:</label>
+                <input class="input" type="text" name="Teléfono" id="Teléfono" placeholder="Código y número de área">
+            </p>
+            
+            <p>
+                <label for="correo" placeholder="">Dirección de correo electronico:*</label>
+                <input class="input" type="mail" name="correo" id="correo" placeholder="Ej: mail@gmail.com" required>
+            </p>
+        
+        </fieldset>
+    
+    
+    
+        <fieldset>
+        
+            <legend>🚴🏼‍♂️Actividades🤸🏼‍♂️</legend>
+            
+            <p>Por favor, indicá cuáles actividades te interesa.</p>
+            <p class="InputActividades">Sede Palermo:</p>
+            <p class="InputActividades">
+                <input type="checkbox" name="Basquet" value="Basquet"> Básquet
+                <input type="checkbox" name="Boxeo" value="Boxeo"> Boxeo
+                <input type="checkbox" name="Futbol" value="Futbol"> Fútbol
+                <input type="checkbox" name="Tenis" value="Tenis"> Tenis
+                
+            </p>
+            
+            <p class="InputActividades">Sede Rosario</p>
+            <p class="InputActividades">
+                <input type="checkbox" name="Basquet" value="Basquet"> Básquet
+                <input type="checkbox" name="Futbol" value="Futbol"> Fútbol
+                <input type="checkbox" name="Rugby" value="Rugby"> Rugby
+                <input type="checkbox" name="Voley" value="Voley"> Voley   
+            </p>
+        </fieldset>
+    
+    
+    
+        <div class="TerminosyCondiciones">
+            <p><input type="checkbox" required> Acepto las condiciones*</p>
+            <p><input type="checkbox" checked> Deseo recibir novedades</>
+            <p>*: campo obligatorio</p>
+        </div>
+    
+    
+    
+        <div class="button">
+            <button class="button_1">Iniciar Afiliación</button>
+            <button class="button_2">Restablecer</button>
+        </div>
+</form>
+
+
+
+<script src="Js/main.js"></script>
+
+
+
+</body>
+</html>
